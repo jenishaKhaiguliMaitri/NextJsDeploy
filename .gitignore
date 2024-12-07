@@ -1,0 +1,50 @@
+# Ignore node_modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Build directories
+/dist/
+/out/
+/build/
+
+# Environment variables
+.env
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.old
+
+# Editor settings
+.idea/
+.vscode/
+*.code-workspace
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+~$*.*
+
+# Testing files
+coverage/
+*.lcov
+
+# Operating system files
+.Trashes
+*.swp
+*.swo
+*.lock
