@@ -12,10 +12,9 @@ yarn-error.log*
 jspm_packages/
 bower_components/
 
-# Build directories
-/dist/
-/out/
-/build/
+# Build output
+.next/
+out/
 
 # Environment variables
 .env
@@ -39,9 +38,17 @@ Thumbs.db
 *.swo
 ~$*.*
 
-# Testing files
+# Testing and coverage
 coverage/
 *.lcov
+
+# Static files generated during export
+/static/*
+
+# Next.js artifacts
+.next/cache/
+.next/server/
+.next/static/
 
 # Operating system files
 .Trashes
