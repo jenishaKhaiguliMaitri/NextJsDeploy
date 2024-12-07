@@ -1,7 +1,11 @@
+import NewsList from "@/component/news-list";
+import { getNewsForYear } from "@/lib/news";
 import React from "react";
 
-const Year = () => {
-  return <div>Year</div>;
+const FilteredNewsPage = ({ params }) => {
+  const newsYear = params.year;
+  const filteredNews = getNewsForYear(newsYear);
+  return <NewsList newsList={filteredNews} />;
 };
 
-export default Year;
+export default FilteredNewsPage;
