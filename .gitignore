@@ -56,4 +56,11 @@ coverage/
 *.swo
 *.lock
 
+# Ignore gzip files
 *.gz
+
+# Ignore webpack runtime files
+webpack-runtime.js
+
+# Ignore build outputs if you're not committing the entire build directory
+.next/
