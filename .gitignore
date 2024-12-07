@@ -1,68 +1,36 @@
-# Ignore node_modules
-node_modules/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Logs
-logs
-*.log
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Dependency directories
-jspm_packages/
-bower_components/
+# local env files
+.env*.local
 
-# Build output
-.next/
-out/
+# vercel
+.vercel
 
-# Environment variables
-.env
-.env.*
-
-# System files
-.DS_Store
-Thumbs.db
-*.bak
-*.tmp
-*.old
-
-# Editor settings
-.idea/
-.vscode/
-*.code-workspace
-
-# Temporary files
-*.tmp
-*.swp
-*.swo
-~$*.*
-
-# Testing and coverage
-coverage/
-*.lcov
-
-# Static files generated during export
-/static/*
-
-# Next.js artifacts
-.next/cache/
-.next/server/
-.next/static/
-
-# Operating system files
-.Trashes
-*.swp
-*.swo
-*.lock
-
-# Ignore gzip files
-*.gz
-*.pack.gz
-*.pack.gz.old
-
-# Ignore webpack runtime files
-webpack-runtime.js
-
-# Ignore build outputs if you're not committing the entire build directory
-.next/
+# typescript
+*.tsbuildinfo
+next-env.d.ts
