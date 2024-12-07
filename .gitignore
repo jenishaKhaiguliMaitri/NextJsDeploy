@@ -58,6 +58,8 @@ coverage/
 
 # Ignore gzip files
 *.gz
+*.pack.gz
+*.pack.gz.old
 
 # Ignore webpack runtime files
 webpack-runtime.js
