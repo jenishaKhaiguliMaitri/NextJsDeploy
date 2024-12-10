@@ -5,7 +5,7 @@ export const metadata = {
   description: "Learn how to route to different pages.",
 };
 
-export default function RootLayout({ children }) {
+export default function MarketingLayout({ children }) {
   return (
     <html lang="en">
       <body>{children}</body>
